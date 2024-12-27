@@ -20,7 +20,7 @@ class Bus(Vehicle):
     
         if num_passengers > self.capacity:
             raise ValueError("Number of passengers exceeds vehicle capacity.")
-        return num_passengers * self.fare_per_passenger
+        return num_passengers * self.fare_per_passenger #calculations
 
 bus = Bus(vehicle_type="City Bus", capacity=50, fare_per_passenger=2.5)
 
